@@ -1,0 +1,29 @@
+.main_screen {
+  width: 960px;
+  height: 700px;
+  margin: 0 auto;
+  border: 5px solid black;
+  position: relative;
+  background-color: black;
+}
+
+.paddle {
+  position: absolute;
+  border: 2px solid red;
+  border-radius: 7px;
+  background-color: gray;
+}
+
+.ball {
+  position: absolute;
+  background-color: red;
+  border: 1px solid darkred;
+  border-radius: 50%;
+}
+
+.brick {
+  border: 1px solid cyan;
+  border-radius: 5px;
+  background-color: rgb(66, 7, 7);
+  position: absolute;
+}
